@@ -14,7 +14,12 @@
 <div id="bienvenida">
   <label for="nombre">🧙‍♀️Escribe tu nombre🧙‍♂️</label>
   <input type="text" name="nombre" id="nombre"  placeholder="✨Escribe aquí tu nombre✨">
-  <button id="comenzar" class="boton">Comenzar</button>
+  
+  <div class="opciones">
+    <button id="comenzar1" class="boton">Comenzar test mágico</button>
+    <button id="comenzar2" class="boton">Comenzar test espíritu animal</button>
+    
+  </div>
 
 </div>
 <div id="velo"> 
@@ -27,7 +32,7 @@
     <p>Completa el formulario y descubre el tipo de magia que tienes.</p>
   </div>
 
-    <form action="">
+    <form id="quizz1">
       <img
         src="https://images.pexels.com/photos/752484/pexels-photo-752484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         alt="">
@@ -87,6 +92,69 @@
 
 
     </form>
+
+    <form  id="quizz2">
+      <img
+        src="https://images.pexels.com/photos/752484/pexels-photo-752484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="">
+        <label for="pregunta1">¿Cúal es tu estacion del año favorita?</label>
+        <div class="respuestas">
+
+        <input type="radio" name="pregunta1" value="invierno"><span>Invierno</span></input>
+        <input type="radio" name="pregunta1" value="primavera"><span>Primavera</span></input>
+        <input type="radio" name="pregunta1" value="verano"><span>Verano</span></input>
+      </div>
+
+      <img src="https://images.pexels.com/photos/17363461/pexels-photo-17363461/free-photo-of-hombre-deporte-bicicleta-ropa-de-deporte.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+      <label for="pregunta2">La palabra que mejor te define :</label>
+      <div class="respuestas">
+
+        <input type="radio" name="pregunta2" value="astuto"><span>Astuto</span></input>
+        <input type="radio" name="pregunta2" value="audaz"><span>Audaz</span></input>
+        <input type="radio" name="pregunta2" value="curioso"><span>Curioso</span></input>
+      </div>
+
+    <img src="https://images.pexels.com/photos/5480835/pexels-photo-5480835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" >
+      <label for="pregunta3">En mi grupo de amigos ,yo soy el :</label>
+      <div class="respuestas">
+
+        <input type="radio" name="pregunta3" value="gracioso"><span>Gracioso</span></input>
+        <input type="radio" name="pregunta3" value="noble"><span>Noble</span></input>
+        <input type="radio" name="pregunta3" value="inteligente"><span>Inteligente</span></input>
+      </div>
+
+      <img src="https://images.pexels.com/photos/1717673/pexels-photo-1717673.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+      <label for="pregunta4">Cuando me molesto ,mi reaccion es:</label>
+      <div class="respuestas">
+        <input type="radio" name="pregunta4" value="pacifica"><span>Pacífica,me doy un tiempo para arreglar las cosas.</span></input>
+        <input type="radio" name="pregunta4" value="analitico"><span>Soy analitico,evaluo la situación.</span></input>
+        <input type="radio" name="pregunta4" value="energica"><span>Reacionar de forma un poco enérgica.</span></input>
+      </div>
+
+<img src="https://images.pexels.com/photos/262405/pexels-photo-262405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+      <label for="pregunta5">El mejor regalo para mi sería...</label>
+      <div class="respuestas">
+        <input type="radio" name="pregunta5" value="brillante"><span>Algo brillante y valioso.</span></input>
+        <input type="radio" name="pregunta5" value="tiempo"><span>Pasar tiempo con las personas que amo.</span></input>
+        <input type="radio" name="pregunta5" value="comida"><span>Que me inviten al mejor restaurante de la ciudad.</span></input>
+      </div>
+      
+      <img src="https://images.pexels.com/photos/17327917/pexels-photo-17327917/free-photo-of-mujer-animal-perro-primavera.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+      <label for="pregunta6">Mi pareja ideal tendría las siguientes cualidades :</label>
+      <div class="respuestas">
+        <input type="radio" name="pregunta6" value="hogar"><span>Una persona hogareña y cálida.</span></input>
+        <input type="radio" name="pregunta6" value="detalles"><span>Una persona detallista y genuina. </span></input>
+        <input type="radio" name="pregunta6" value="humor"><span>Que comparta mi sentido del humor y sociable.</span></input>
+      </div>
+
+      <input type="submit" value="Enviar" class="boton" id="finalizar">
+
+      
+
+
+    </form>
+
+
   </div>
   <script src="main.js"></script>
 </body>
