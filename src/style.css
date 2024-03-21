@@ -1,3 +1,98 @@
-/*
-  Aquí van los estilos
-*/
+body {
+  background: rgb(174, 180, 233);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+label {
+  margin-top: 50px;
+  font-size: 32px;
+  display: block;
+  width: 100%;
+  flex-grow: 3;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+span {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+img {
+  width: 40%;
+  margin-top: 100px;
+  border-radius: 15px;
+}
+
+.respuestas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 20px;
+}
+
+input {
+  margin-left: 200px;
+}
+
+.boton {
+  margin-left: 0;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border:none;
+  background-color: rgb(99, 21, 119);
+  color: white;
+  margin-top: 200px;
+  margin-bottom: 100px;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+p {
+  text-align: center;
+  font-size: 28px;
+}
+
+.cabezera {
+  background: url("./img/fondo1.jpg"),linear-gradient(to right, #180136, #c65bf0, #ddb5f0);
+  margin: 0;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-shadow: black 2px 5px;
+}
+
+body{
+  margin: 0%;
+  padding: 0;
+}
+
+form{
+  background:linear-gradient(to right, #180136, #c65bf0, #ddb5f0); 
+  color: white;
+  text-shadow: rgba(44, 39, 39, 0.712) 2px 5px 3px;
+}

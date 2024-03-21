@@ -1,3 +1,14 @@
-/*
-  Aquí va tu JavaScript
-*/
+document.getElementById("finalizar").onclick=function(){
+  alert("Hola")
+}
+
+
+
+
+
+
+
+
+
+
+
